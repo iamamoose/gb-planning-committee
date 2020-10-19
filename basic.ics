@@ -1,0 +1,1338 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OpenSSF Community Calendar
+X-WR-TIMEZONE:America/Los_Angeles
+X-WR-CALDESC:https://openssf.org
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+X-LIC-LOCATION:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20201014T110000
+DTEND;TZID=America/Chicago:20201014T120000
+DTSTAMP:20200928T131137Z
+UID:0mvmhr762be57s6lqjfgbmv76r_R20200916T160000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=OpenSS
+ F Community Calendar;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group
+ .calendar.google.com
+RECURRENCE-ID;TZID=America/Chicago:20201014T110000
+CREATED:20200813T202353Z
+DESCRIPTION:Description:(Join <a href="https://groups.google.com/forum/#!fo
+ rum/ossf-wg-developer-identity" id="ow825" __is_owner="true">https://groups
+ .google.com/forum/#!forum/ossf-wg-developer-identity</a> for access to the 
+ meeting notes &amp\; agenda)\n\nThis event has a video call.\nJoin: https:/
+ /meet.google.com/nmy-thie-pqd\n(US) +1 929-324-2897 PIN: 346134428#\nView m
+ ore phone numbers: https://tel.meet/nmy-thie-pqd?pin=9343154895306&hs=7
+LAST-MODIFIED:20200924T165727Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Developer Identity WG
+TRANSP:OPAQUE
+ATTACH;FILENAME=Developer Identity WG Meeting Notes;FMTTYPE=application/vnd
+ .google-apps.document:https://docs.google.com/document/d/1xPs2sSbH3I9Ich7Oy
+ LOzl85oJshnK8Q6WoAgREE5-zA/edit?usp=drive_web
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20200924T110000
+DTEND;TZID=America/Chicago:20200924T120000
+DTSTAMP:20200928T131137Z
+UID:1bk2b690hpab56onbomf40d076_R20200924T160000@google.com
+RECURRENCE-ID;TZID=America/Chicago:20200924T110000
+CREATED:20200828T205105Z
+DESCRIPTION:https://docs.google.com/document/d/1MIXxadtWsaROpFcJnBtYnQPoyzT
+ CIDhd0IGV8PIV0mQ/edit\n\nThis event has a video call.\nJoin: https://meet.g
+ oogle.com/unz-fyni-umj\n(US) +1 707-789-1702 PIN: 904920362#\nView more pho
+ ne numbers: https://tel.meet/unz-fyni-umj?pin=3449801507107&hs=7
+LAST-MODIFIED:20200924T133454Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Securing Critical Projects WG
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20200924T110000
+DTEND;TZID=America/Chicago:20200924T120000
+RRULE:FREQ=WEEKLY;WKST=SU;INTERVAL=2;BYDAY=TH
+DTSTAMP:20200928T131137Z
+UID:1bk2b690hpab56onbomf40d076_R20200924T160000@google.com
+CREATED:20200828T205105Z
+DESCRIPTION:https://docs.google.com/document/d/1MIXxadtWsaROpFcJnBtYnQPoyzT
+ CIDhd0IGV8PIV0mQ/edit\n\nThis event has a video call.\nJoin: https://meet.g
+ oogle.com/unz-fyni-umj\n(US) +1 707-789-1702 PIN: 904920362#\nView more pho
+ ne numbers: https://tel.meet/unz-fyni-umj?pin=3449801507107&hs=7
+LAST-MODIFIED:20200923T231527Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Securing Critical Projects WG
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20201231T110000
+DTEND;TZID=America/Chicago:20201231T120000
+DTSTAMP:20200928T131137Z
+UID:1bk2b690hpab56onbomf40d076_R20200924T160000@google.com
+RECURRENCE-ID;TZID=America/Chicago:20201231T110000
+CREATED:20200828T205105Z
+DESCRIPTION:https://docs.google.com/document/d/1MIXxadtWsaROpFcJnBtYnQPoyzT
+ CIDhd0IGV8PIV0mQ/edit\n\nThis event has a video call.\nJoin: https://meet.g
+ oogle.com/unz-fyni-umj\n(US) +1 707-789-1702 PIN: 904920362#\nView more pho
+ ne numbers: https://tel.meet/unz-fyni-umj?pin=3449801507107&hs=7
+LAST-MODIFIED:20200923T231527Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Securing Critical Projects WG
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20200910T110000
+DTEND;TZID=America/Chicago:20200910T120000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200924T045959Z;INTERVAL=2;BYDAY=TH
+DTSTAMP:20200928T131137Z
+UID:1bk2b690hpab56onbomf40d076@google.com
+CREATED:20200828T205105Z
+DESCRIPTION:https://docs.google.com/document/d/1MIXxadtWsaROpFcJnBtYnQPoyzT
+ CIDhd0IGV8PIV0mQ/edit\n\nThis event has a video call.\nJoin: https://meet.g
+ oogle.com/unz-fyni-umj\n(US) +1 707-789-1702 PIN: 904920362#\nView more pho
+ ne numbers: https://tel.meet/unz-fyni-umj?pin=3449801507107&hs=7
+LAST-MODIFIED:20200923T231527Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Securing Critical Projects WG
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20200928T110000
+DTEND;TZID=America/Chicago:20200928T120000
+RRULE:FREQ=WEEKLY;WKST=SU;INTERVAL=4;BYDAY=MO
+DTSTAMP:20200928T131137Z
+UID:41pvmap83j54ondh7qdah9c7do@google.com
+CREATED:20200909T210152Z
+DESCRIPTION:<p>This invite is for a recurring <b>Identifying SecurityThreat
+ s</b> workgroup meeting for the OpenSSF.</p><p>&nbsp\;</p><p>Please expect 
+ two different invites\, as we’ll be meetingbi-weekly\, but rotating between
+  Monday and Wednesday mornings (PST) to accountfor schedules\, time-zones\,
+  etc.</p><p>&nbsp\;</p><p><a href="https://nam06.safelinks.protection.outlo
+ ok.com/?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1AfI0S6VjBCO0ZkU
+ LCYZGHuzzW8TPqO3zYxRjzmKvUB4%2Fedit%3Fusp%3Dsharing&amp\;data=02%7C01%7Cryh
+ aning%40microsoft.com%7Cda2cf7ba2cd94ee4b23a08d854e85553%7C72f988bf86f141af
+ 91ab2d7cd011db47%7C1%7C0%7C637352704125516534&amp\;sdata=sYYzFwj7lO6K2La926
+ vO9YvrC%2Fvl8gnM%2BEvMzjqdpk0%3D&amp\;reserved=0">MeetingNotes</a></p><p>&n
+ bsp\;</p><p>Thank you!</p><p>&nbsp\;</p><p>Mike</p><p>&nbsp\;</p><p>&nbsp\;
+ </p><p>____________________________________________________________________
+ ____________ </p><p>Microsoft Teamsmeeting </p><p><b>Join on your computero
+ r mobile app</b><b> </b></p><p><a href="https://teams.microsoft.com/l/meetu
+ p-join/19%3ameeting_MjkwMTMyODEtM2FjZC00NTBiLTk5OGUtYTk5NzljYmE1ZDEz%40thre
+ ad.v2/0?context=%7b%22Tid%22%3a%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2
+ c%22Oid%22%3a%222c39005c-e15b-489b-9229-a9428d773e5d%22%7d">Click here to j
+ oin the meeting</a> </p><p><b>Or call in (audioonly)</b> </p><p><a>+1 347-9
+ 91-7781\,\,189826277#</a> &nbsp\; United States\, New York City </p><p><a>(
+ 866) 641-7188\,\,189826277#</a> &nbsp\; (Toll-free) </p><p>Phone Conference
+  ID: 189 826 277# </p><p><a href="https://nam06.safelinks.protection.outloo
+ k.com/?url=https%3A%2F%2Fdialin.teams.microsoft.com%2F48b4c613-cc67-4825-81
+ 75-29628d9715e5%3Fid%3D189826277&amp\;data=02%7C01%7Cryhaning%40microsoft.c
+ om%7Cda2cf7ba2cd94ee4b23a08d854e85553%7C72f988bf86f141af91ab2d7cd011db47%7C
+ 1%7C0%7C637352704125516534&amp\;sdata=NyqFTmNHyWJFn8KFI1btzS2TIT9cvGIUAcOij
+ uEqE9U%3D&amp\;reserved=0">Find a localnumber</a> | <a href="https://nam06.
+ safelinks.protection.outlook.com/?url=https%3A%2F%2Fmysettings.lync.com%2Fp
+ stnconferencing&amp\;data=02%7C01%7Cryhaning%40microsoft.com%7Cda2cf7ba2cd9
+ 4ee4b23a08d854e85553%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637352704
+ 125526489&amp\;sdata=bf9b7PLx%2FY84bm67CjtE%2BYLJM2Z4wil%2F0D9IHSin2P8%3D&a
+ mp\;reserved=0">Reset PIN</a></p><p><a href="https://aka.ms/JoinTeamsMeetin
+ g">Learn More</a>| <a href="https://nam06.safelinks.protection.outlook.com/
+ ?url=https%3A%2F%2Fteams.microsoft.com%2FmeetingOptions%2F%3ForganizerId%3D
+ 2c39005c-e15b-489b-9229-a9428d773e5d%26tenantId%3D72f988bf-86f1-41af-91ab-2
+ d7cd011db47%26threadId%3D19_meeting_MjkwMTMyODEtM2FjZC00NTBiLTk5OGUtYTk5Nzl
+ jYmE1ZDEz%40thread.v2%26messageId%3D0%26language%3Den-US&amp\;data=02%7C01%
+ 7Cryhaning%40microsoft.com%7Cda2cf7ba2cd94ee4b23a08d854e85553%7C72f988bf86f
+ 141af91ab2d7cd011db47%7C1%7C0%7C637352704125526489&amp\;sdata=w%2BKEOMlIII7
+ uDtDr3%2FlAS3%2FBlcOjQLA7RGehCNMio%2Fk%3D&amp\;reserved=0">Meeting options<
+ /a></p><p>_________________________________________________________________
+ _______________ </p>\n\nThis event has a video call.\nJoin: https://meet.go
+ ogle.com/gts-dquv-fhh
+LAST-MODIFIED:20200923T212909Z
+LOCATION:https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjkwMTMyODE
+ tM2FjZC00NTBiLTk5OGUtYTk5NzljYmE1ZDEz%40thread.v2/0?context=%7b%22Tid%22%3a
+ %2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2c%22Oid%22%3a%222c39005c-e15b-4
+ 89b-9229-a9428d773e5d%22%7d
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Identifying Security Threats - WG Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20200930T110000
+DTEND;TZID=America/Chicago:20200930T120000
+DTSTAMP:20200928T131137Z
+UID:0mvmhr762be57s6lqjfgbmv76r_R20200916T160000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=OpenSS
+ F Community Calendar;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group
+ .calendar.google.com
+RECURRENCE-ID;TZID=America/Chicago:20200930T110000
+CREATED:20200813T202353Z
+DESCRIPTION:Description:(Join <a href="https://groups.google.com/forum/#!fo
+ rum/ossf-wg-developer-identity" id="ow825" __is_owner="true">https://groups
+ .google.com/forum/#!forum/ossf-wg-developer-identity</a> for access to the 
+ meeting notes &amp\; agenda)\n\nThis event has a video call.\nJoin: https:/
+ /meet.google.com/nmy-thie-pqd\n(US) +1 929-324-2897 PIN: 346134428#\nView m
+ ore phone numbers: https://tel.meet/nmy-thie-pqd?pin=9343154895306&hs=7
+LAST-MODIFIED:20200922T193200Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Developer Identity WG
+TRANSP:OPAQUE
+ATTACH;FILENAME=Developer Identity WG Meeting Notes;FMTTYPE=application/vnd
+ .google-apps.document:https://docs.google.com/document/d/1xPs2sSbH3I9Ich7Oy
+ LOzl85oJshnK8Q6WoAgREE5-zA/edit?usp=drive_web
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20200420T090000
+DTEND;TZID=America/Los_Angeles:20200420T100000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200907T065959Z;INTERVAL=2;BYDAY=MO
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf_R20200420T160000@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20200406T090000
+DTEND;TZID=America/Los_Angeles:20200406T100000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200420T065959Z;INTERVAL=2;BYDAY=MO
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf_R20200406T160000@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200824T160000Z
+DTEND:20200824T170000Z
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf_R20200420T160000@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+RECURRENCE-ID:20200824T160000Z
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200810T160000Z
+DTEND:20200810T170000Z
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf_R20200420T160000@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+RECURRENCE-ID:20200810T160000Z
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200727T160000Z
+DTEND:20200727T170000Z
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf_R20200420T160000@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+RECURRENCE-ID:20200727T160000Z
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200713T160000Z
+DTEND:20200713T170000Z
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf_R20200420T160000@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+RECURRENCE-ID:20200713T160000Z
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200629T160000Z
+DTEND:20200629T170000Z
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf_R20200420T160000@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+RECURRENCE-ID:20200629T160000Z
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200615T160000Z
+DTEND:20200615T170000Z
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf_R20200420T160000@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+RECURRENCE-ID:20200615T160000Z
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200601T160000Z
+DTEND:20200601T170000Z
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf_R20200420T160000@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+RECURRENCE-ID:20200601T160000Z
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200518T160000Z
+DTEND:20200518T170000Z
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf_R20200420T160000@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+RECURRENCE-ID:20200518T160000Z
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200504T160000Z
+DTEND:20200504T170000Z
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf_R20200420T160000@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+RECURRENCE-ID:20200504T160000Z
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200420T160000Z
+DTEND:20200420T170000Z
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf_R20200420T160000@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+RECURRENCE-ID:20200420T160000Z
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200406T160000Z
+DTEND:20200406T170000Z
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf_R20200406T160000@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+RECURRENCE-ID:20200406T160000Z
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200323T160000Z
+DTEND:20200323T170000Z
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+RECURRENCE-ID:20200323T160000Z
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20200323T090000
+DTEND;TZID=America/Los_Angeles:20200323T100000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200406T065959Z;INTERVAL=2;BYDAY=MO
+DTSTAMP:20200928T131137Z
+UID:1dqimhae6t6kbrr5n885q3mmbf@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20200916T110000
+DTEND;TZID=America/Chicago:20200916T120000
+RRULE:FREQ=WEEKLY;WKST=SU;INTERVAL=2;BYDAY=WE
+DTSTAMP:20200928T131137Z
+UID:0mvmhr762be57s6lqjfgbmv76r_R20200916T160000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=OpenSS
+ F Community Calendar;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group
+ .calendar.google.com
+CREATED:20200813T202353Z
+DESCRIPTION:Description:(Join <a href="https://groups.google.com/forum/#!fo
+ rum/ossf-wg-developer-identity" id="ow825" __is_owner="true">https://groups
+ .google.com/forum/#!forum/ossf-wg-developer-identity</a> for access to the 
+ meeting notes &amp\; agenda)\n\nThis event has a video call.\nJoin: https:/
+ /meet.google.com/nmy-thie-pqd\n(US) +1 929-324-2897 PIN: 346134428#\nView m
+ ore phone numbers: https://tel.meet/nmy-thie-pqd?pin=9343154895306&hs=7
+LAST-MODIFIED:20200918T201047Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Developer Identity WG
+TRANSP:OPAQUE
+ATTACH;FILENAME=Developer Identity WG Meeting Notes;FMTTYPE=application/vnd
+ .google-apps.document:https://docs.google.com/document/d/1xPs2sSbH3I9Ich7Oy
+ LOzl85oJshnK8Q6WoAgREE5-zA/edit?usp=drive_web
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20200902T110000
+DTEND;TZID=America/Chicago:20200902T120000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200916T045959Z;INTERVAL=2;BYDAY=WE
+DTSTAMP:20200928T131137Z
+UID:0mvmhr762be57s6lqjfgbmv76r_R20200902T160000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=OpenSS
+ F Community Calendar;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group
+ .calendar.google.com
+CREATED:20200813T202353Z
+DESCRIPTION:Description:(Join <a href="https://groups.google.com/forum/#!fo
+ rum/ossf-wg-developer-identity" id="ow825" __is_owner="true">https://groups
+ .google.com/forum/#!forum/ossf-wg-developer-identity</a> for access to the 
+ meeting notes &amp\; agenda)\n\nThis event has a video call.\nJoin: https:/
+ /meet.google.com/nmy-thie-pqd\n(US) +1 929-324-2897 PIN: 346134428#\nView m
+ ore phone numbers: https://tel.meet/nmy-thie-pqd?pin=9343154895306&hs=7
+LAST-MODIFIED:20200918T201047Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Developer Identity WG
+TRANSP:OPAQUE
+ATTACH;FILENAME=Developer Identity WG Meeting Notes;FMTTYPE=application/vnd
+ .google-apps.document:https://docs.google.com/document/d/1xPs2sSbH3I9Ich7Oy
+ LOzl85oJshnK8Q6WoAgREE5-zA/edit?usp=drive_web
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20210217T110000
+DTEND;TZID=America/Chicago:20210217T120000
+DTSTAMP:20200928T131137Z
+UID:0mvmhr762be57s6lqjfgbmv76r_R20200916T160000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=OpenSS
+ F Community Calendar;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group
+ .calendar.google.com
+RECURRENCE-ID;TZID=America/Chicago:20210217T110000
+CREATED:20200813T202353Z
+DESCRIPTION:Description:(Join <a href="https://groups.google.com/forum/#!fo
+ rum/ossf-wg-developer-identity" id="ow825" __is_owner="true">https://groups
+ .google.com/forum/#!forum/ossf-wg-developer-identity</a> for access to the 
+ meeting notes &amp\; agenda)\n\nThis event has a video call.\nJoin: https:/
+ /meet.google.com/nmy-thie-pqd\n(US) +1 929-324-2897 PIN: 346134428#\nView m
+ ore phone numbers: https://tel.meet/nmy-thie-pqd?pin=9343154895306&hs=7
+LAST-MODIFIED:20200918T201047Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Developer Identity WG
+TRANSP:OPAQUE
+ATTACH;FILENAME=Developer Identity WG Meeting Notes;FMTTYPE=application/vnd
+ .google-apps.document:https://docs.google.com/document/d/1xPs2sSbH3I9Ich7Oy
+ LOzl85oJshnK8Q6WoAgREE5-zA/edit?usp=drive_web
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20200916T110000
+DTEND;TZID=America/Chicago:20200916T120000
+DTSTAMP:20200928T131137Z
+UID:0mvmhr762be57s6lqjfgbmv76r_R20200916T160000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=OpenSS
+ F Community Calendar;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group
+ .calendar.google.com
+RECURRENCE-ID;TZID=America/Chicago:20200916T110000
+CREATED:20200813T202353Z
+DESCRIPTION:Description:(Join <a href="https://groups.google.com/forum/#!fo
+ rum/ossf-wg-developer-identity" id="ow825" __is_owner="true">https://groups
+ .google.com/forum/#!forum/ossf-wg-developer-identity</a> for access to the 
+ meeting notes &amp\; agenda)\n\nThis event has a video call.\nJoin: https:/
+ /meet.google.com/nmy-thie-pqd\n(US) +1 929-324-2897 PIN: 346134428#\nView m
+ ore phone numbers: https://tel.meet/nmy-thie-pqd?pin=9343154895306&hs=7
+LAST-MODIFIED:20200918T201047Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Developer Identity WG
+TRANSP:OPAQUE
+ATTACH;FILENAME=Developer Identity WG Meeting Notes;FMTTYPE=application/vnd
+ .google-apps.document:https://docs.google.com/document/d/1xPs2sSbH3I9Ich7Oy
+ LOzl85oJshnK8Q6WoAgREE5-zA/edit?usp=drive_web
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20200902T110000
+DTEND;TZID=America/Chicago:20200902T120000
+DTSTAMP:20200928T131137Z
+UID:0mvmhr762be57s6lqjfgbmv76r_R20200902T160000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=OpenSS
+ F Community Calendar;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group
+ .calendar.google.com
+RECURRENCE-ID;TZID=America/Chicago:20200902T110000
+CREATED:20200813T202353Z
+DESCRIPTION:Description:(Join <a href="https://groups.google.com/forum/#!fo
+ rum/ossf-wg-developer-identity" id="ow825" __is_owner="true">https://groups
+ .google.com/forum/#!forum/ossf-wg-developer-identity</a> for access to the 
+ meeting notes &amp\; agenda)\n\nThis event has a video call.\nJoin: https:/
+ /meet.google.com/nmy-thie-pqd\n(US) +1 929-324-2897 PIN: 346134428#\nView m
+ ore phone numbers: https://tel.meet/nmy-thie-pqd?pin=9343154895306&hs=7
+LAST-MODIFIED:20200918T201047Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Developer Identity WG
+TRANSP:OPAQUE
+ATTACH;FILENAME=Developer Identity WG Meeting Notes;FMTTYPE=application/vnd
+ .google-apps.document:https://docs.google.com/document/d/1xPs2sSbH3I9Ich7Oy
+ LOzl85oJshnK8Q6WoAgREE5-zA/edit?usp=drive_web
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20200819T110000
+DTEND;TZID=America/Chicago:20200819T120000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200902T045959Z;INTERVAL=2;BYDAY=WE
+DTSTAMP:20200928T131137Z
+UID:0mvmhr762be57s6lqjfgbmv76r@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=OpenSS
+ F Community Calendar;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group
+ .calendar.google.com
+CREATED:20200813T202353Z
+DESCRIPTION:Description:(Join <a href="https://groups.google.com/forum/#!fo
+ rum/ossf-wg-developer-identity" id="ow825" __is_owner="true">https://groups
+ .google.com/forum/#!forum/ossf-wg-developer-identity</a> for access to the 
+ meeting notes &amp\; agenda)\n\nThis event has a video call.\nJoin: https:/
+ /meet.google.com/nmy-thie-pqd\n(US) +1 929-324-2897 PIN: 346134428#\nView m
+ ore phone numbers: https://tel.meet/nmy-thie-pqd?pin=9343154895306&hs=7
+LAST-MODIFIED:20200918T201047Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Developer Identity WG
+TRANSP:OPAQUE
+ATTACH;FILENAME=Developer Identity WG Meeting Notes;FMTTYPE=application/vnd
+ .google-apps.document:https://docs.google.com/document/d/1xPs2sSbH3I9Ich7Oy
+ LOzl85oJshnK8Q6WoAgREE5-zA/edit?usp=drive_web
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20200922T110000
+DTEND;TZID=America/New_York:20200922T120000
+RRULE:FREQ=WEEKLY;WKST=SU;COUNT=6;INTERVAL=2;BYDAY=TU
+DTSTAMP:20200928T131137Z
+UID:14jkvtepduocbmactaomnl4pii@google.com
+CREATED:20200908T182212Z
+DESCRIPTION:<br><b>TAC Meeting Notes:&nbsp\;&nbsp\;</b><br><a href="https:/
+ /docs.google.com/document/d/18BJlokTeG5e5ARD1VFDl5bIP75OFPCtzf77lfadQ4f0/ed
+ it?ts=5f32f9a9">https://docs.google.com/<u></u>document/d/<u></u>18BJlokTeG
+ 5e5ARD1VFDl5bIP75OFP<u></u>Ctzf77lfadQ4f0/edit?ts=<u></u>5f32f9a9</a><br><b
+ r><a href="https://github.com/ossf/tac" id="ow2186" __is_owner="true">https
+ ://github.com/ossf/tac</a><br><br><i>*Please note all TAC &amp\; GB members
+  have edit rights to this calendar\, if you delete this meeting - it will c
+ ancel the meeting for all participants.</i><br>____________________________
+ _________________OpenSSF Operations is inviting you to a scheduled Zoom mee
+ ting.<br><br>Topic: OpenSSF TAC Meeting<br>Time: Sep 22\, 2020 08:00 AM Pac
+ ific Time (US and Canada)<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; Every 2 weeks 
+ on Tue\, until Dec 1\, 2020\, 6 occurrence(s)<br>&nbsp\; &nbsp\; &nbsp\; &n
+ bsp\; Sep 22\, 2020 08:00 AM<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; Oct 6\, 202
+ 0 08:00 AM<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; Oct 20\, 2020 08:00 AM<br>&nb
+ sp\; &nbsp\; &nbsp\; &nbsp\; Nov 3\, 2020 08:00 AM<br>&nbsp\; &nbsp\; &nbsp
+ \; &nbsp\; Nov 17\, 2020 08:00 AM<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; Dec 1\
+ , 2020 08:00 AM<br>Please download and import the following iCalendar (.ics
+ ) files to your calendar system.<br>Weekly: https://zoom.us/meeting/tJMrd-m
+ hqjosEtFWyGk8aRIc0qQYLQgWnm1F/ics?icsToken=98tyKuCvqDsqE9CUthGCRowEBIigc_Pw
+ iH5dj7d7qwbCCHhSUCr1ZvNzC55OF-_e<br><br>Join Zoom Meeting<br>https://zoom.u
+ s/j/97600941685<br><br>Meeting ID: 976 0094 1685<br>One tap mobile<br>+1929
+ 2056099\,\,97600941685# US (New York)<br>+13017158592\,\,97600941685# US (G
+ ermantown)<br><br>Dial by your location<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; 
+ +1 929 205 6099 US (New York)<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; +1 301 715
+  8592 US (Germantown)<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; +1 312 626 6799 US
+  (Chicago)<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; +1 669 900 6833 US (San Jose)
+ <br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; +1 253 215 8782 US (Tacoma)<br>&nbsp\; 
+ &nbsp\; &nbsp\; &nbsp\; +1 346 248 7799 US (Houston)<br>&nbsp\; &nbsp\; &nb
+ sp\; &nbsp\; 888 788 0099 US Toll-free<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; 8
+ 77 853 5247 US Toll-free<br>Meeting ID: 976 0094 1685<br>Find your local nu
+ mber: https://zoom.us/u/abuKRio7dU
+LAST-MODIFIED:20200914T164618Z
+LOCATION:https://zoom.us/j/97600941685
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OpenSSF TAC Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Warsaw:20201005T160000
+DTEND;TZID=Europe/Warsaw:20201005T170000
+RRULE:FREQ=WEEKLY;WKST=SU;INTERVAL=3;BYDAY=MO
+DTSTAMP:20200928T131137Z
+UID:0vciv9eecc1rmgg84gb03207li_R20201005T140000@google.com
+CREATED:20200908T095050Z
+DESCRIPTION:\n──────────\nMarcin Hoppe is inviting you to a scheduled Zoom 
+ meeting.\n\nJoin Zoom Meeting\nhttps://auth0.zoom.us/j/96101652486?pwd=SXNJ
+ aE1yK1hGd0ZaRHJZQW1RZG4zdz09\n\nMeeting ID: 961 0165 2486\nPasscode: 758964
+ \nOne tap mobile\n+12532158782\,\,96101652486#\,\,\,\,\,\,0#\,\,758964# US 
+ (Tacoma)\n+13017158592\,\,96101652486#\,\,\,\,\,\,0#\,\,758964# US (Germant
+ own)\n\nDial by your location\n        +1 253 215 8782 US (Tacoma)\n       
+  +1 301 715 8592 US (Germantown)\n        +1 312 626 6799 US (Chicago)\n   
+      +1 346 248 7799 US (Houston)\n        +1 646 558 8656 US (New York)\n 
+        +1 669 900 6833 US (San Jose)\nMeeting ID: 961 0165 2486\nPasscode: 
+ 758964\nFind your local number: https://auth0.zoom.us/u/ad5ZjuSBfH\n\n\n───
+ ───────
+LAST-MODIFIED:20200914T152914Z
+LOCATION:https://auth0.zoom.us/j/96101652486?pwd=SXNJaE1yK1hGd0ZaRHJZQW1RZG
+ 4zdz09
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF Vulnerability Disclosures WG
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Warsaw:20201228T160000
+DTEND;TZID=Europe/Warsaw:20201228T170000
+DTSTAMP:20200928T131137Z
+UID:0vciv9eecc1rmgg84gb03207li_R20201005T140000@google.com
+RECURRENCE-ID;TZID=Europe/Warsaw:20201228T160000
+CREATED:20200908T095050Z
+DESCRIPTION:\n──────────\nMarcin Hoppe is inviting you to a scheduled Zoom 
+ meeting.\n\nJoin Zoom Meeting\nhttps://auth0.zoom.us/j/96101652486?pwd=SXNJ
+ aE1yK1hGd0ZaRHJZQW1RZG4zdz09\n\nMeeting ID: 961 0165 2486\nPasscode: 758964
+ \nOne tap mobile\n+12532158782\,\,96101652486#\,\,\,\,\,\,0#\,\,758964# US 
+ (Tacoma)\n+13017158592\,\,96101652486#\,\,\,\,\,\,0#\,\,758964# US (Germant
+ own)\n\nDial by your location\n        +1 253 215 8782 US (Tacoma)\n       
+  +1 301 715 8592 US (Germantown)\n        +1 312 626 6799 US (Chicago)\n   
+      +1 346 248 7799 US (Houston)\n        +1 646 558 8656 US (New York)\n 
+        +1 669 900 6833 US (San Jose)\nMeeting ID: 961 0165 2486\nPasscode: 
+ 758964\nFind your local number: https://auth0.zoom.us/u/ad5ZjuSBfH\n\n\n───
+ ───────
+LAST-MODIFIED:20200914T152914Z
+LOCATION:https://auth0.zoom.us/j/96101652486?pwd=SXNJaE1yK1hGd0ZaRHJZQW1RZG
+ 4zdz09
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF Vulnerability Disclosures WG
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Warsaw:20200914T160000
+DTEND;TZID=Europe/Warsaw:20200914T170000
+DTSTAMP:20200928T131137Z
+UID:0vciv9eecc1rmgg84gb03207li@google.com
+RECURRENCE-ID;TZID=Europe/Warsaw:20200914T160000
+CREATED:20200908T095050Z
+DESCRIPTION:\n──────────\nMarcin Hoppe is inviting you to a scheduled Zoom 
+ meeting.\n\nJoin Zoom Meeting\nhttps://auth0.zoom.us/j/96101652486?pwd=SXNJ
+ aE1yK1hGd0ZaRHJZQW1RZG4zdz09\n\nMeeting ID: 961 0165 2486\nPasscode: 758964
+ \nOne tap mobile\n+12532158782\,\,96101652486#\,\,\,\,\,\,0#\,\,758964# US 
+ (Tacoma)\n+13017158592\,\,96101652486#\,\,\,\,\,\,0#\,\,758964# US (Germant
+ own)\n\nDial by your location\n        +1 253 215 8782 US (Tacoma)\n       
+  +1 301 715 8592 US (Germantown)\n        +1 312 626 6799 US (Chicago)\n   
+      +1 346 248 7799 US (Houston)\n        +1 646 558 8656 US (New York)\n 
+        +1 669 900 6833 US (San Jose)\nMeeting ID: 961 0165 2486\nPasscode: 
+ 758964\nFind your local number: https://auth0.zoom.us/u/ad5ZjuSBfH\n\n\n───
+ ───────
+LAST-MODIFIED:20200914T152914Z
+LOCATION:https://auth0.zoom.us/j/96101652486?pwd=SXNJaE1yK1hGd0ZaRHJZQW1RZG
+ 4zdz09
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF Vulnerability Disclosures WG
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Warsaw:20200914T160000
+DTEND;TZID=Europe/Warsaw:20200914T170000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20201004T215959Z;INTERVAL=3;BYDAY=MO
+DTSTAMP:20200928T131137Z
+UID:0vciv9eecc1rmgg84gb03207li@google.com
+CREATED:20200908T095050Z
+DESCRIPTION:\n──────────\nMarcin Hoppe is inviting you to a scheduled Zoom 
+ meeting.\n\nJoin Zoom Meeting\nhttps://auth0.zoom.us/j/96101652486?pwd=SXNJ
+ aE1yK1hGd0ZaRHJZQW1RZG4zdz09\n\nMeeting ID: 961 0165 2486\nPasscode: 758964
+ \nOne tap mobile\n+12532158782\,\,96101652486#\,\,\,\,\,\,0#\,\,758964# US 
+ (Tacoma)\n+13017158592\,\,96101652486#\,\,\,\,\,\,0#\,\,758964# US (Germant
+ own)\n\nDial by your location\n        +1 253 215 8782 US (Tacoma)\n       
+  +1 301 715 8592 US (Germantown)\n        +1 312 626 6799 US (Chicago)\n   
+      +1 346 248 7799 US (Houston)\n        +1 646 558 8656 US (New York)\n 
+        +1 669 900 6833 US (San Jose)\nMeeting ID: 961 0165 2486\nPasscode: 
+ 758964\nFind your local number: https://auth0.zoom.us/u/ad5ZjuSBfH\n\n\n───
+ ───────
+LAST-MODIFIED:20200914T152914Z
+LOCATION:https://auth0.zoom.us/j/96101652486?pwd=SXNJaE1yK1hGd0ZaRHJZQW1RZG
+ 4zdz09
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF Vulnerability Disclosures WG
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20200914T080000
+DTEND;TZID=America/Los_Angeles:20200914T090000
+RRULE:FREQ=WEEKLY;WKST=SU;INTERVAL=2;BYDAY=MO
+DTSTAMP:20200928T131137Z
+UID:3rcoaep7c7i86vptc7qechb82s_R20200914T150000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=OpenSS
+ F Community Calendar;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group
+ .calendar.google.com
+CLASS:PUBLIC
+CREATED:20200810T170832Z
+DESCRIPTION:Join Zoom Meeting\nhttps://github.zoom.us/j/94463123365?pwd=MDB
+ 2aElIWGNrM3o1bG8zTG5JcUFFUT09 (ID: 94463123365\, password: 083645)\n\nJoin 
+ by phone\n(US) +1 888-788-0099\n(NL) +31 800 2200040\n\nJoin using SIP\n944
+ 63123365@zoomcrc.com (passcode: 083645)\n\nJoining instructions: https://ww
+ w.google.com/url?q=https://applications.zoom.us/addon/invitation/detail?mee
+ tingUuid%3DVd9o%252B6alTB6GvG9Yi2%252FnCw%253D%253D%26signature%3Dacbb805b9
+ 2c0b0d8c58b9aac336111a96a29065c5a9b70f676599cc7c3b817bf&sa=D&source=calenda
+ r&usg=AOvVaw1SeQd1mnAB58209pZK8hev\n\nPasscode: 083645
+LAST-MODIFIED:20200914T152807Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF - Best practices for open source developers
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20200831T080000
+DTEND;TZID=America/Los_Angeles:20200831T090000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200914T065959Z;INTERVAL=2;BYDAY=MO
+DTSTAMP:20200928T131137Z
+UID:3rcoaep7c7i86vptc7qechb82s_R20200831T150000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=OpenSS
+ F Community Calendar;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group
+ .calendar.google.com
+CLASS:PUBLIC
+CREATED:20200810T170832Z
+DESCRIPTION:Join Zoom Meeting\nhttps://github.zoom.us/j/94463123365?pwd=MDB
+ 2aElIWGNrM3o1bG8zTG5JcUFFUT09 (ID: 94463123365\, password: 083645)\n\nJoin 
+ by phone\n(US) +1 888-788-0099\n(NL) +31 800 2200040\n\nJoin using SIP\n944
+ 63123365@zoomcrc.com (passcode: 083645)\n\nJoining instructions: https://ww
+ w.google.com/url?q=https://applications.zoom.us/addon/invitation/detail?mee
+ tingUuid%3DVd9o%252B6alTB6GvG9Yi2%252FnCw%253D%253D%26signature%3Dacbb805b9
+ 2c0b0d8c58b9aac336111a96a29065c5a9b70f676599cc7c3b817bf&sa=D&source=calenda
+ r&usg=AOvVaw1SeQd1mnAB58209pZK8hev\n\nPasscode: 083645
+LAST-MODIFIED:20200914T152807Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF - Best practices for open source developers
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20200914T080000
+DTEND;TZID=America/Los_Angeles:20200914T090000
+DTSTAMP:20200928T131137Z
+UID:3rcoaep7c7i86vptc7qechb82s_R20200914T150000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=OpenSS
+ F Community Calendar;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group
+ .calendar.google.com
+RECURRENCE-ID;TZID=America/Los_Angeles:20200914T080000
+CLASS:PUBLIC
+CREATED:20200810T170832Z
+DESCRIPTION:Join Zoom Meeting\nhttps://github.zoom.us/j/94463123365?pwd=MDB
+ 2aElIWGNrM3o1bG8zTG5JcUFFUT09 (ID: 94463123365\, password: 083645)\n\nJoin 
+ by phone\n(US) +1 888-788-0099\n(NL) +31 800 2200040\n\nJoin using SIP\n944
+ 63123365@zoomcrc.com (passcode: 083645)\n\nJoining instructions: https://ww
+ w.google.com/url?q=https://applications.zoom.us/addon/invitation/detail?mee
+ tingUuid%3DVd9o%252B6alTB6GvG9Yi2%252FnCw%253D%253D%26signature%3Dacbb805b9
+ 2c0b0d8c58b9aac336111a96a29065c5a9b70f676599cc7c3b817bf&sa=D&source=calenda
+ r&usg=AOvVaw1SeQd1mnAB58209pZK8hev\n\nPasscode: 083645
+LAST-MODIFIED:20200914T152807Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF - Best practices for open source developers
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20200831T080000
+DTEND;TZID=America/Los_Angeles:20200831T090000
+DTSTAMP:20200928T131137Z
+UID:3rcoaep7c7i86vptc7qechb82s_R20200831T150000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=OpenSS
+ F Community Calendar;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group
+ .calendar.google.com
+RECURRENCE-ID;TZID=America/Los_Angeles:20200831T080000
+CLASS:PUBLIC
+CREATED:20200810T170832Z
+DESCRIPTION:Join Zoom Meeting\nhttps://github.zoom.us/j/94463123365?pwd=MDB
+ 2aElIWGNrM3o1bG8zTG5JcUFFUT09 (ID: 94463123365\, password: 083645)\n\nJoin 
+ by phone\n(US) +1 888-788-0099\n(NL) +31 800 2200040\n\nJoin using SIP\n944
+ 63123365@zoomcrc.com (passcode: 083645)\n\nJoining instructions: https://ww
+ w.google.com/url?q=https://applications.zoom.us/addon/invitation/detail?mee
+ tingUuid%3DVd9o%252B6alTB6GvG9Yi2%252FnCw%253D%253D%26signature%3Dacbb805b9
+ 2c0b0d8c58b9aac336111a96a29065c5a9b70f676599cc7c3b817bf&sa=D&source=calenda
+ r&usg=AOvVaw1SeQd1mnAB58209pZK8hev\n\nPasscode: 083645
+LAST-MODIFIED:20200914T152807Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF - Best practices for open source developers
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20200817T080000
+DTEND;TZID=America/Los_Angeles:20200817T090000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200831T065959Z;INTERVAL=2;BYDAY=MO
+DTSTAMP:20200928T131137Z
+UID:3rcoaep7c7i86vptc7qechb82s@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=OpenSS
+ F Community Calendar;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group
+ .calendar.google.com
+CLASS:PUBLIC
+CREATED:20200810T170832Z
+DESCRIPTION:Join Zoom Meeting\nhttps://github.zoom.us/j/94463123365?pwd=MDB
+ 2aElIWGNrM3o1bG8zTG5JcUFFUT09 (ID: 94463123365\, password: 083645)\n\nJoin 
+ by phone\n(US) +1 888-788-0099\n(NL) +31 800 2200040\n\nJoin using SIP\n944
+ 63123365@zoomcrc.com (passcode: 083645)\n\nJoining instructions: https://ww
+ w.google.com/url?q=https://applications.zoom.us/addon/invitation/detail?mee
+ tingUuid%3DVd9o%252B6alTB6GvG9Yi2%252FnCw%253D%253D%26signature%3Dacbb805b9
+ 2c0b0d8c58b9aac336111a96a29065c5a9b70f676599cc7c3b817bf&sa=D&source=calenda
+ r&usg=AOvVaw1SeQd1mnAB58209pZK8hev\n\nPasscode: 083645
+LAST-MODIFIED:20200914T152807Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF - Best practices for open source developers
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20200914T130000
+DTEND;TZID=America/New_York:20200914T140000
+RRULE:FREQ=WEEKLY;BYDAY=MO
+DTSTAMP:20200928T131137Z
+UID:17dd46gdpnchvgkuulaglbih2p_R20200914T170000@google.com
+CREATED:20200818T171249Z
+DESCRIPTION:<u>Call Resources:</u><br><ul><li>OpenSSF Strategy Committee Ag
+ enda and Minutes: <a href="https://docs.google.com/document/d/1fzaf_qfTI2pU
+ MidkxsmObgF5MqKZVzNCYKJZC9SjKtA/edit?usp=sharing" id="ow1239" __is_owner="t
+ rue">https://docs.google.com/document/d/1fzaf_qfTI2pUMidkxsmObgF5MqKZVzNCYK
+ JZC9SjKtA/edit?usp=sharing</a></li><li>OSSF Shared Google Folder: <a href="
+ https://drive.google.com/drive/folders/1r2WeqrBEjehGbSpzGKcTILZdWsD9lYQP?us
+ p=sharing" id="ow1226" __is_owner="true">https://drive.google.com/drive/fol
+ ders/1r2WeqrBEjehGbSpzGKcTILZdWsD9lYQP?usp=sharing</a></li><li>Github:<br><
+ a href="https://github.com/ossf/gb-strategy-committee" id="ow1358" __is_own
+ er="true">https://github.com/ossf/gb-strategy-committee</a></li></ul><br>To
+ pic: OSSF Strategy Committee Meeting<br>Time: Aug 24\, 2020 01:00 PM Easter
+ n Time (US and Canada)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;
+ &nbsp\;Every week on Mon\, until Nov 30\, 2020\, 15 occurrence(s)<br>&nbsp\
+ ; &nbsp\;<br>Please download and import the following iCalendar (.ics) file
+ s to your calendar system.<br>Weekly: <a href="https://zoom.us/meeting/tJYo
+ d-CrpzwtHNf8jFKsqtSijgPbEwkDKCRJ/ics?icsToken=98tyKuCqqzsjGd2Stx-ERowQGYigX
+ enxmGZago1bxBXDKDNCdjD_POVyMJdoG_z7">https://zoom.us/meeting/tJYod-CrpzwtHN
+ f8jFKsqtSijgPbEwkDKCRJ/ics?icsToken=98tyKuCqqzsjGd2Stx-ERowQGYigXenxmGZago1
+ bxBXDKDNCdjD_POVyMJdoG_z7</a><br><br>Join Zoom Meeting<br><a href="https://
+ zoom.us/j/92509397763">https://zoom.us/j/92509397763</a><br><br>Meeting ID:
+  925 0939 7763<br>One tap mobile<br>+13017158592\,\,92509397763# US (German
+ town)<br>+13126266799\,\,92509397763# US (Chicago)<br><br>Dial by your loca
+ tion<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 301 715 
+ 8592 US (Germantown)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&n
+ bsp\;+1 312 626 6799 US (Chicago)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+ sp\;&nbsp\;&nbsp\;+1 929 205 6099 US (New York)<br>&nbsp\;&nbsp\;&nbsp\;&nb
+ sp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 253 215 8782 US (Tacoma)<br>&nbsp\;&nbsp
+ \;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 346 248 7799 US (Houston)<br
+ >&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 669 900 6833 US
+  (San Jose)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;888 
+ 788 0099 US Toll-free<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&
+ nbsp\;877 853 5247 US Toll-free<br>Meeting ID: 925 0939 7763<br>Find your l
+ ocal number: <a href="https://zoom.us/u/ajjydLjPv">https://zoom.us/u/ajjydL
+ jPv</a>
+LAST-MODIFIED:20200914T152703Z
+LOCATION:https://zoom.us/j/92509397763
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF Strategy Committee Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20210215T130000
+DTEND;TZID=America/New_York:20210215T140000
+DTSTAMP:20200928T131137Z
+UID:17dd46gdpnchvgkuulaglbih2p_R20200914T170000@google.com
+RECURRENCE-ID;TZID=America/New_York:20210215T130000
+CREATED:20200818T171249Z
+DESCRIPTION:<u>Call Resources:</u><br><ul><li>OpenSSF Strategy Committee Ag
+ enda and Minutes: <a href="https://docs.google.com/document/d/1fzaf_qfTI2pU
+ MidkxsmObgF5MqKZVzNCYKJZC9SjKtA/edit?usp=sharing" id="ow1239" __is_owner="t
+ rue">https://docs.google.com/document/d/1fzaf_qfTI2pUMidkxsmObgF5MqKZVzNCYK
+ JZC9SjKtA/edit?usp=sharing</a></li><li>OSSF Shared Google Folder: <a href="
+ https://drive.google.com/drive/folders/1r2WeqrBEjehGbSpzGKcTILZdWsD9lYQP?us
+ p=sharing" id="ow1226" __is_owner="true">https://drive.google.com/drive/fol
+ ders/1r2WeqrBEjehGbSpzGKcTILZdWsD9lYQP?usp=sharing</a></li><li>Github:<br><
+ a href="https://github.com/ossf/gb-strategy-committee" id="ow1358" __is_own
+ er="true">https://github.com/ossf/gb-strategy-committee</a></li></ul><br>To
+ pic: OSSF Strategy Committee Meeting<br>Time: Aug 24\, 2020 01:00 PM Easter
+ n Time (US and Canada)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;
+ &nbsp\;Every week on Mon\, until Nov 30\, 2020\, 15 occurrence(s)<br>&nbsp\
+ ; &nbsp\;<br>Please download and import the following iCalendar (.ics) file
+ s to your calendar system.<br>Weekly: <a href="https://zoom.us/meeting/tJYo
+ d-CrpzwtHNf8jFKsqtSijgPbEwkDKCRJ/ics?icsToken=98tyKuCqqzsjGd2Stx-ERowQGYigX
+ enxmGZago1bxBXDKDNCdjD_POVyMJdoG_z7">https://zoom.us/meeting/tJYod-CrpzwtHN
+ f8jFKsqtSijgPbEwkDKCRJ/ics?icsToken=98tyKuCqqzsjGd2Stx-ERowQGYigXenxmGZago1
+ bxBXDKDNCdjD_POVyMJdoG_z7</a><br><br>Join Zoom Meeting<br><a href="https://
+ zoom.us/j/92509397763">https://zoom.us/j/92509397763</a><br><br>Meeting ID:
+  925 0939 7763<br>One tap mobile<br>+13017158592\,\,92509397763# US (German
+ town)<br>+13126266799\,\,92509397763# US (Chicago)<br><br>Dial by your loca
+ tion<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 301 715 
+ 8592 US (Germantown)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&n
+ bsp\;+1 312 626 6799 US (Chicago)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+ sp\;&nbsp\;&nbsp\;+1 929 205 6099 US (New York)<br>&nbsp\;&nbsp\;&nbsp\;&nb
+ sp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 253 215 8782 US (Tacoma)<br>&nbsp\;&nbsp
+ \;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 346 248 7799 US (Houston)<br
+ >&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 669 900 6833 US
+  (San Jose)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;888 
+ 788 0099 US Toll-free<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&
+ nbsp\;877 853 5247 US Toll-free<br>Meeting ID: 925 0939 7763<br>Find your l
+ ocal number: <a href="https://zoom.us/u/ajjydLjPv">https://zoom.us/u/ajjydL
+ jPv</a>
+LAST-MODIFIED:20200914T152703Z
+LOCATION:https://zoom.us/j/92509397763
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF Strategy Committee Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20200914T130000
+DTEND;TZID=America/New_York:20200914T140000
+DTSTAMP:20200928T131137Z
+UID:17dd46gdpnchvgkuulaglbih2p_R20200914T170000@google.com
+RECURRENCE-ID;TZID=America/New_York:20200914T130000
+CREATED:20200818T171249Z
+DESCRIPTION:<u>Call Resources:</u><br><ul><li>OpenSSF Strategy Committee Ag
+ enda and Minutes: <a href="https://docs.google.com/document/d/1fzaf_qfTI2pU
+ MidkxsmObgF5MqKZVzNCYKJZC9SjKtA/edit?usp=sharing" id="ow1239" __is_owner="t
+ rue">https://docs.google.com/document/d/1fzaf_qfTI2pUMidkxsmObgF5MqKZVzNCYK
+ JZC9SjKtA/edit?usp=sharing</a></li><li>OSSF Shared Google Folder: <a href="
+ https://drive.google.com/drive/folders/1r2WeqrBEjehGbSpzGKcTILZdWsD9lYQP?us
+ p=sharing" id="ow1226" __is_owner="true">https://drive.google.com/drive/fol
+ ders/1r2WeqrBEjehGbSpzGKcTILZdWsD9lYQP?usp=sharing</a></li><li>Github:<br><
+ a href="https://github.com/ossf/gb-strategy-committee" id="ow1358" __is_own
+ er="true">https://github.com/ossf/gb-strategy-committee</a></li></ul><br>To
+ pic: OSSF Strategy Committee Meeting<br>Time: Aug 24\, 2020 01:00 PM Easter
+ n Time (US and Canada)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;
+ &nbsp\;Every week on Mon\, until Nov 30\, 2020\, 15 occurrence(s)<br>&nbsp\
+ ; &nbsp\;<br>Please download and import the following iCalendar (.ics) file
+ s to your calendar system.<br>Weekly: <a href="https://zoom.us/meeting/tJYo
+ d-CrpzwtHNf8jFKsqtSijgPbEwkDKCRJ/ics?icsToken=98tyKuCqqzsjGd2Stx-ERowQGYigX
+ enxmGZago1bxBXDKDNCdjD_POVyMJdoG_z7">https://zoom.us/meeting/tJYod-CrpzwtHN
+ f8jFKsqtSijgPbEwkDKCRJ/ics?icsToken=98tyKuCqqzsjGd2Stx-ERowQGYigXenxmGZago1
+ bxBXDKDNCdjD_POVyMJdoG_z7</a><br><br>Join Zoom Meeting<br><a href="https://
+ zoom.us/j/92509397763">https://zoom.us/j/92509397763</a><br><br>Meeting ID:
+  925 0939 7763<br>One tap mobile<br>+13017158592\,\,92509397763# US (German
+ town)<br>+13126266799\,\,92509397763# US (Chicago)<br><br>Dial by your loca
+ tion<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 301 715 
+ 8592 US (Germantown)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&n
+ bsp\;+1 312 626 6799 US (Chicago)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+ sp\;&nbsp\;&nbsp\;+1 929 205 6099 US (New York)<br>&nbsp\;&nbsp\;&nbsp\;&nb
+ sp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 253 215 8782 US (Tacoma)<br>&nbsp\;&nbsp
+ \;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 346 248 7799 US (Houston)<br
+ >&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 669 900 6833 US
+  (San Jose)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;888 
+ 788 0099 US Toll-free<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&
+ nbsp\;877 853 5247 US Toll-free<br>Meeting ID: 925 0939 7763<br>Find your l
+ ocal number: <a href="https://zoom.us/u/ajjydLjPv">https://zoom.us/u/ajjydL
+ jPv</a>
+LAST-MODIFIED:20200914T152703Z
+LOCATION:https://zoom.us/j/92509397763
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF Strategy Committee Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20200831T130000
+DTEND;TZID=America/New_York:20200831T140000
+DTSTAMP:20200928T131137Z
+UID:17dd46gdpnchvgkuulaglbih2p@google.com
+RECURRENCE-ID;TZID=America/New_York:20200831T130000
+CREATED:20200818T171249Z
+DESCRIPTION:<u>Call Resources:</u><br><ul><li>OpenSSF Strategy Committee Ag
+ enda and Minutes: <a href="https://docs.google.com/document/d/1fzaf_qfTI2pU
+ MidkxsmObgF5MqKZVzNCYKJZC9SjKtA/edit?usp=sharing" id="ow1239" __is_owner="t
+ rue">https://docs.google.com/document/d/1fzaf_qfTI2pUMidkxsmObgF5MqKZVzNCYK
+ JZC9SjKtA/edit?usp=sharing</a></li><li>OSSF Shared Google Folder: <a href="
+ https://drive.google.com/drive/folders/1r2WeqrBEjehGbSpzGKcTILZdWsD9lYQP?us
+ p=sharing" id="ow1226" __is_owner="true">https://drive.google.com/drive/fol
+ ders/1r2WeqrBEjehGbSpzGKcTILZdWsD9lYQP?usp=sharing</a></li><li>Github:<br><
+ a href="https://github.com/ossf/gb-strategy-committee" id="ow1358" __is_own
+ er="true">https://github.com/ossf/gb-strategy-committee</a></li></ul><br>To
+ pic: OSSF Strategy Committee Meeting<br>Time: Aug 24\, 2020 01:00 PM Easter
+ n Time (US and Canada)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;
+ &nbsp\;Every week on Mon\, until Nov 30\, 2020\, 15 occurrence(s)<br>&nbsp\
+ ; &nbsp\;<br>Please download and import the following iCalendar (.ics) file
+ s to your calendar system.<br>Weekly: <a href="https://zoom.us/meeting/tJYo
+ d-CrpzwtHNf8jFKsqtSijgPbEwkDKCRJ/ics?icsToken=98tyKuCqqzsjGd2Stx-ERowQGYigX
+ enxmGZago1bxBXDKDNCdjD_POVyMJdoG_z7">https://zoom.us/meeting/tJYod-CrpzwtHN
+ f8jFKsqtSijgPbEwkDKCRJ/ics?icsToken=98tyKuCqqzsjGd2Stx-ERowQGYigXenxmGZago1
+ bxBXDKDNCdjD_POVyMJdoG_z7</a><br><br>Join Zoom Meeting<br><a href="https://
+ zoom.us/j/92509397763">https://zoom.us/j/92509397763</a><br><br>Meeting ID:
+  925 0939 7763<br>One tap mobile<br>+13017158592\,\,92509397763# US (German
+ town)<br>+13126266799\,\,92509397763# US (Chicago)<br><br>Dial by your loca
+ tion<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 301 715 
+ 8592 US (Germantown)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&n
+ bsp\;+1 312 626 6799 US (Chicago)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+ sp\;&nbsp\;&nbsp\;+1 929 205 6099 US (New York)<br>&nbsp\;&nbsp\;&nbsp\;&nb
+ sp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 253 215 8782 US (Tacoma)<br>&nbsp\;&nbsp
+ \;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 346 248 7799 US (Houston)<br
+ >&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 669 900 6833 US
+  (San Jose)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;888 
+ 788 0099 US Toll-free<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&
+ nbsp\;877 853 5247 US Toll-free<br>Meeting ID: 925 0939 7763<br>Find your l
+ ocal number: <a href="https://zoom.us/u/ajjydLjPv">https://zoom.us/u/ajjydL
+ jPv</a>
+LAST-MODIFIED:20200914T152703Z
+LOCATION:https://zoom.us/j/92509397763
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF Strategy Committee Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20200824T130000
+DTEND;TZID=America/New_York:20200824T140000
+DTSTAMP:20200928T131137Z
+UID:17dd46gdpnchvgkuulaglbih2p@google.com
+RECURRENCE-ID;TZID=America/New_York:20200824T130000
+CREATED:20200818T171249Z
+DESCRIPTION:<u>Call Resources:</u><br><ul><li>OpenSSF Strategy Committee Ag
+ enda and Minutes: <a href="https://docs.google.com/document/d/1fzaf_qfTI2pU
+ MidkxsmObgF5MqKZVzNCYKJZC9SjKtA/edit?usp=sharing" id="ow1239" __is_owner="t
+ rue">https://docs.google.com/document/d/1fzaf_qfTI2pUMidkxsmObgF5MqKZVzNCYK
+ JZC9SjKtA/edit?usp=sharing</a></li><li>OSSF Shared Google Folder: <a href="
+ https://drive.google.com/drive/folders/1r2WeqrBEjehGbSpzGKcTILZdWsD9lYQP?us
+ p=sharing" id="ow1226" __is_owner="true">https://drive.google.com/drive/fol
+ ders/1r2WeqrBEjehGbSpzGKcTILZdWsD9lYQP?usp=sharing</a></li><li>Github:<br><
+ a href="https://github.com/ossf/gb-strategy-committee" id="ow1358" __is_own
+ er="true">https://github.com/ossf/gb-strategy-committee</a></li></ul><br>To
+ pic: OSSF Strategy Committee Meeting<br>Time: Aug 24\, 2020 01:00 PM Easter
+ n Time (US and Canada)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;
+ &nbsp\;Every week on Mon\, until Nov 30\, 2020\, 15 occurrence(s)<br>&nbsp\
+ ; &nbsp\;<br>Please download and import the following iCalendar (.ics) file
+ s to your calendar system.<br>Weekly: <a href="https://zoom.us/meeting/tJYo
+ d-CrpzwtHNf8jFKsqtSijgPbEwkDKCRJ/ics?icsToken=98tyKuCqqzsjGd2Stx-ERowQGYigX
+ enxmGZago1bxBXDKDNCdjD_POVyMJdoG_z7">https://zoom.us/meeting/tJYod-CrpzwtHN
+ f8jFKsqtSijgPbEwkDKCRJ/ics?icsToken=98tyKuCqqzsjGd2Stx-ERowQGYigXenxmGZago1
+ bxBXDKDNCdjD_POVyMJdoG_z7</a><br><br>Join Zoom Meeting<br><a href="https://
+ zoom.us/j/92509397763">https://zoom.us/j/92509397763</a><br><br>Meeting ID:
+  925 0939 7763<br>One tap mobile<br>+13017158592\,\,92509397763# US (German
+ town)<br>+13126266799\,\,92509397763# US (Chicago)<br><br>Dial by your loca
+ tion<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 301 715 
+ 8592 US (Germantown)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&n
+ bsp\;+1 312 626 6799 US (Chicago)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+ sp\;&nbsp\;&nbsp\;+1 929 205 6099 US (New York)<br>&nbsp\;&nbsp\;&nbsp\;&nb
+ sp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 253 215 8782 US (Tacoma)<br>&nbsp\;&nbsp
+ \;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 346 248 7799 US (Houston)<br
+ >&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 669 900 6833 US
+  (San Jose)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;888 
+ 788 0099 US Toll-free<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&
+ nbsp\;877 853 5247 US Toll-free<br>Meeting ID: 925 0939 7763<br>Find your l
+ ocal number: <a href="https://zoom.us/u/ajjydLjPv">https://zoom.us/u/ajjydL
+ jPv</a>
+LAST-MODIFIED:20200914T152703Z
+LOCATION:https://zoom.us/j/92509397763
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF Strategy Committee Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20200824T130000
+DTEND;TZID=America/New_York:20200824T140000
+RRULE:FREQ=WEEKLY;UNTIL=20200914T035959Z;BYDAY=MO
+EXDATE;TZID=America/New_York:20200907T130000
+DTSTAMP:20200928T131137Z
+UID:17dd46gdpnchvgkuulaglbih2p@google.com
+CREATED:20200818T171249Z
+DESCRIPTION:<u>Call Resources:</u><br><ul><li>OpenSSF Strategy Committee Ag
+ enda and Minutes: <a href="https://docs.google.com/document/d/1fzaf_qfTI2pU
+ MidkxsmObgF5MqKZVzNCYKJZC9SjKtA/edit?usp=sharing" id="ow1239" __is_owner="t
+ rue">https://docs.google.com/document/d/1fzaf_qfTI2pUMidkxsmObgF5MqKZVzNCYK
+ JZC9SjKtA/edit?usp=sharing</a></li><li>OSSF Shared Google Folder: <a href="
+ https://drive.google.com/drive/folders/1r2WeqrBEjehGbSpzGKcTILZdWsD9lYQP?us
+ p=sharing" id="ow1226" __is_owner="true">https://drive.google.com/drive/fol
+ ders/1r2WeqrBEjehGbSpzGKcTILZdWsD9lYQP?usp=sharing</a></li><li>Github:<br><
+ a href="https://github.com/ossf/gb-strategy-committee" id="ow1358" __is_own
+ er="true">https://github.com/ossf/gb-strategy-committee</a></li></ul><br>To
+ pic: OSSF Strategy Committee Meeting<br>Time: Aug 24\, 2020 01:00 PM Easter
+ n Time (US and Canada)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;
+ &nbsp\;Every week on Mon\, until Nov 30\, 2020\, 15 occurrence(s)<br>&nbsp\
+ ; &nbsp\;<br>Please download and import the following iCalendar (.ics) file
+ s to your calendar system.<br>Weekly: <a href="https://zoom.us/meeting/tJYo
+ d-CrpzwtHNf8jFKsqtSijgPbEwkDKCRJ/ics?icsToken=98tyKuCqqzsjGd2Stx-ERowQGYigX
+ enxmGZago1bxBXDKDNCdjD_POVyMJdoG_z7">https://zoom.us/meeting/tJYod-CrpzwtHN
+ f8jFKsqtSijgPbEwkDKCRJ/ics?icsToken=98tyKuCqqzsjGd2Stx-ERowQGYigXenxmGZago1
+ bxBXDKDNCdjD_POVyMJdoG_z7</a><br><br>Join Zoom Meeting<br><a href="https://
+ zoom.us/j/92509397763">https://zoom.us/j/92509397763</a><br><br>Meeting ID:
+  925 0939 7763<br>One tap mobile<br>+13017158592\,\,92509397763# US (German
+ town)<br>+13126266799\,\,92509397763# US (Chicago)<br><br>Dial by your loca
+ tion<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 301 715 
+ 8592 US (Germantown)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&n
+ bsp\;+1 312 626 6799 US (Chicago)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+ sp\;&nbsp\;&nbsp\;+1 929 205 6099 US (New York)<br>&nbsp\;&nbsp\;&nbsp\;&nb
+ sp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 253 215 8782 US (Tacoma)<br>&nbsp\;&nbsp
+ \;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 346 248 7799 US (Houston)<br
+ >&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 669 900 6833 US
+  (San Jose)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;888 
+ 788 0099 US Toll-free<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&
+ nbsp\;877 853 5247 US Toll-free<br>Meeting ID: 925 0939 7763<br>Find your l
+ ocal number: <a href="https://zoom.us/u/ajjydLjPv">https://zoom.us/u/ajjydL
+ jPv</a>
+LAST-MODIFIED:20200914T152703Z
+LOCATION:https://zoom.us/j/92509397763
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OSSF Strategy Committee Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20200916T100000
+DTEND;TZID=America/Chicago:20200916T110000
+RRULE:FREQ=WEEKLY;WKST=SU;INTERVAL=4;BYDAY=WE
+DTSTAMP:20200928T131137Z
+UID:4qh8likicgfbg4c81du3pdb5il@google.com
+CREATED:20200909T205948Z
+DESCRIPTION:<p>This invite is for a recurring <b>Identifying SecurityThreat
+ s</b> workgroup meeting for the OpenSSF.</p><p>&nbsp\;</p><p>Please expect 
+ two different invites\, as we’ll be meetingbi-weekly\, but rotating between
+  Monday and Wednesday mornings (PST) to accountfor schedules\, time-zones\,
+  etc.</p><p>&nbsp\;</p><p><a href="https://nam06.safelinks.protection.outlo
+ ok.com/?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1AfI0S6VjBCO0ZkU
+ LCYZGHuzzW8TPqO3zYxRjzmKvUB4%2Fedit%3Fusp%3Dsharing&amp\;data=02%7C01%7Cryh
+ aning%40microsoft.com%7Cfab261a3a9ec43598b3e08d854e8519e%7C72f988bf86f141af
+ 91ab2d7cd011db47%7C1%7C0%7C637352704060422340&amp\;sdata=pRHxm5M9PCFTOEL7ZN
+ 1ocrvkg15p0Es0gpeuZAyTrI0%3D&amp\;reserved=0">MeetingNotes</a></p><p>&nbsp\
+ ;</p><p>Thank you!</p><p>&nbsp\;</p><p>Mike</p><p>&nbsp\;</p><p>&nbsp\;</p>
+ <p>________________________________________________________________________
+ ________ </p><p>Microsoft Teamsmeeting </p><p><b>Join on your computeror mo
+ bile app</b><b> </b></p><p><a href="https://teams.microsoft.com/l/meetup-jo
+ in/19%3ameeting_MDY1NjU5Y2EtYjAzYy00NDk4LWI4NzMtMTgxNjYxMDY0Yjg3%40thread.v
+ 2/0?context=%7b%22Tid%22%3a%2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2c%22
+ Oid%22%3a%222c39005c-e15b-489b-9229-a9428d773e5d%22%7d">Click here to join 
+ the meeting</a> </p><p><b>Or call in (audioonly)</b> </p><p><a>+1 347-991-7
+ 781\,\,709065938#</a> &nbsp\; United States\, New York City </p><p><a>(866)
+  641-7188\,\,709065938#</a> &nbsp\; (Toll-free) </p><p>Phone Conference ID:
+  709 065 938# </p><p><a href="https://nam06.safelinks.protection.outlook.co
+ m/?url=https%3A%2F%2Fdialin.teams.microsoft.com%2F48b4c613-cc67-4825-8175-2
+ 9628d9715e5%3Fid%3D709065938&amp\;data=02%7C01%7Cryhaning%40microsoft.com%7
+ Cfab261a3a9ec43598b3e08d854e8519e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C
+ 0%7C637352704060432305&amp\;sdata=hIS5HTH2V5lpU%2BD7l1fPEZ8enjun2a5BhU5UGqd
+ AfQQ%3D&amp\;reserved=0">Find a localnumber</a> | <a href="https://nam06.sa
+ felinks.protection.outlook.com/?url=https%3A%2F%2Fmysettings.lync.com%2Fpst
+ nconferencing&amp\;data=02%7C01%7Cryhaning%40microsoft.com%7Cfab261a3a9ec43
+ 598b3e08d854e8519e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C63735270406
+ 0432305&amp\;sdata=nLX5wtwuU0N2M3tFtS1wWBbrrb0hQjBcYawBRQ51BbA%3D&amp\;rese
+ rved=0">Reset PIN</a></p><p><a href="https://aka.ms/JoinTeamsMeeting">Learn
+  More</a>| <a href="https://nam06.safelinks.protection.outlook.com/?url=htt
+ ps%3A%2F%2Fteams.microsoft.com%2FmeetingOptions%2F%3ForganizerId%3D2c39005c
+ -e15b-489b-9229-a9428d773e5d%26tenantId%3D72f988bf-86f1-41af-91ab-2d7cd011d
+ b47%26threadId%3D19_meeting_MDY1NjU5Y2EtYjAzYy00NDk4LWI4NzMtMTgxNjYxMDY0Yjg
+ 3%40thread.v2%26messageId%3D0%26language%3Den-US&amp\;data=02%7C01%7Cryhani
+ ng%40microsoft.com%7Cfab261a3a9ec43598b3e08d854e8519e%7C72f988bf86f141af91a
+ b2d7cd011db47%7C1%7C0%7C637352704060442261&amp\;sdata=xYW0hw%2BpFwWfYGomcah
+ bDJ43qZxcenC3UrKPx3yYvp4%3D&amp\;reserved=0">Meeting options</a></p><p>____
+ ___________________________________________________________________________
+ _ </p>
+LAST-MODIFIED:20200909T205948Z
+LOCATION:https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDY1NjU5Y2E
+ tYjAzYy00NDk4LWI4NzMtMTgxNjYxMDY0Yjg3%40thread.v2/0?context=%7b%22Tid%22%3a
+ %2272f988bf-86f1-41af-91ab-2d7cd011db47%22%2c%22Oid%22%3a%222c39005c-e15b-4
+ 89b-9229-a9428d773e5d%22%7d
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Identifying Security Threats - WG Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200908T150000Z
+DTEND:20200908T160000Z
+DTSTAMP:20200928T131137Z
+UID:77orc99vqo2bmv6556m7srlcdg@google.com
+CREATED:20200908T121950Z
+DESCRIPTION:<i>&lt\;Tuesday\, Sept 8&gt\; Hi There! I am assuming this meet
+ ing cancellation was an error - placing this meeting back on everyone's cal
+ endars. Thanks!<br><br>Note: As we continue to find the best schedule align
+ ment for all TAC members we are setting this up as a one-time meeting until
+  we can secure a reoccurring time that works for most.</i><br><b><br></b><b
+ r><b>TAC Meeting Notes:&nbsp\;&nbsp\;</b><br><a href="https://docs.google.c
+ om/document/d/18BJlokTeG5e5ARD1VFDl5bIP75OFPCtzf77lfadQ4f0/edit?ts=5f32f9a9
+ ">https://docs.google.com/<wbr>document/d/<wbr>18BJlokTeG5e5ARD1VFDl5bIP75O
+ FP<wbr>Ctzf77lfadQ4f0/edit?ts=<wbr>5f32f9a9</a><br>________________________
+ ______<wbr>______________________________<wbr>____OpenSSF Operations is inv
+ iting you to a scheduled Zoom meeting.<br><br>Topic: OpenSSF TAC Meeting<br
+ >Time: Sep 8\, 2020 08:00 AM Pacific Time (US and Canada)<br><br>Join Zoom 
+ Meeting<br><a href="https://zoom.us/j/94078390317">https://zoom.us/j/940783
+ 90317</a><br><br>Meeting ID: 940 7839 0317<br>One tap mobile<br>+1301715859
+ 2\,\,94078390317# US (Germantown)<br>+13126266799\,\,94078390317# US (Chica
+ go)<br><br>Dial by your location<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; +1 301 
+ 715 8592 US (Germantown)<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; +1 312 626 6799
+  US (Chicago)<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; +1 929 205 6099 US (New Yo
+ rk)<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; +1 253 215 8782 US (Tacoma)<br>&nbsp
+ \; &nbsp\; &nbsp\; &nbsp\; +1 346 248 7799 US (Houston)<br>&nbsp\; &nbsp\; 
+ &nbsp\; &nbsp\; +1 669 900 6833 US (San Jose)<br>&nbsp\; &nbsp\; &nbsp\; &n
+ bsp\; 888 788 0099 US Toll-free<br>&nbsp\; &nbsp\; &nbsp\; &nbsp\; 877 853 
+ 5247 US Toll-free<br>Meeting ID: 940 7839 0317<br>Find your local number: <
+ a href="https://zoom.us/u/aqNdBcutN">https://zoom.us/u/aqNdBcutN</a>
+LAST-MODIFIED:20200908T173805Z
+LOCATION:https://zoom.us/j/94078390317
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OpenSSF TAC Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20200819T110000
+DTEND;TZID=America/Chicago:20200819T120000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200902T045959Z;INTERVAL=2;BYDAY=WE
+DTSTAMP:20200928T131137Z
+UID:5hq3ke20um8pjl8n6bbs6mf9d9@google.com
+CREATED:20200901T192430Z
+DESCRIPTION:Description:(Join https://groups.google.com/forum/#!forum/ossf-
+ wg-developer-identity for access to the meeting notes & agenda)\n\nThis eve
+ nt has a video call.\nJoin: https://meet.google.com/nmy-thie-pqd\n(US) +1 9
+ 29-324-2897 PIN: 346134428#\nView more phone numbers: https://tel.meet/nmy-
+ thie-pqd?pin=9343154895306&hs=7
+LAST-MODIFIED:20200901T192449Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Developer Identity WG
+TRANSP:OPAQUE
+ATTACH;FILENAME=Developer Identity WG Meeting Notes;FMTTYPE=application/vnd
+ .google-apps.document:https://docs.google.com/document/d/1xPs2sSbH3I9Ich7Oy
+ LOzl85oJshnK8Q6WoAgREE5-zA/edit?usp=drive_web
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200827T160000Z
+DTEND:20200827T170000Z
+DTSTAMP:20200928T131137Z
+UID:32827r3hnks4oqhpdtn6nttosg@google.com
+CREATED:20200823T224536Z
+DESCRIPTION:<a href="https://docs.google.com/document/d/1MIXxadtWsaROpFcJnB
+ tYnQPoyzTCIDhd0IGV8PIV0mQ/edit#">https://docs.google.com/document/d/1MIXxad
+ tWsaROpFcJnBtYnQPoyzTCIDhd0IGV8PIV0mQ/edit#</a>\n\nThis event has a video c
+ all.\nJoin: https://meet.google.com/erg-iejg-etg\n(US) +1 260-230-1283 PIN:
+  451998558#\nView more phone numbers: https://tel.meet/erg-iejg-etg?pin=669
+ 7710303603&hs=7
+LAST-MODIFIED:20200829T142908Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Securing Critical Projects WG Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200817T160000Z
+DTEND:20200817T170000Z
+DTSTAMP:20200928T131137Z
+UID:6q16ul6fjl88red8knh748aars@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:s63voefhp5i9pfltb5q67ngpes@group.calendar.go
+ ogle.com
+SUMMARY:Busy
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200821T160000Z
+DTEND:20200821T170000Z
+DTSTAMP:20200928T131137Z
+UID:12epe3d8utd0t4t7d2an0g25be@google.com
+CREATED:20200810T192627Z
+DESCRIPTION:<br>Meeting notes:&nbsp\;&nbsp\;<a href="https://docs.google.co
+ m/document/d/18BJlokTeG5e5ARD1VFDl5bIP75OFPCtzf77lfadQ4f0/edit?ts=5f32f9a9"
+ >https://docs.google.com/document/d/18BJlokTeG5e5ARD1VFDl5bIP75OFPCtzf77lfa
+ dQ4f0/edit?ts=5f32f9a9</a><br>──────────<br><br>OpenSSF Operations is invit
+ ing you to a scheduled Zoom meeting.<br><br>Join Zoom Meeting<br><a href="h
+ ttps://zoom.us/j/94982568482?pwd=RzlzUWJUc2VsNHpQRU5zZDNPRlFjZz09">https://
+ zoom.us/j/94982568482?pwd=RzlzUWJUc2VsNHpQRU5zZDNPRlFjZz09</a><br><br>Meeti
+ ng ID: 949 8256 8482<br>Passcode: 491983<br>One tap mobile<br>+12532158782\
+ ,\,94982568482# US (Tacoma)<br>+13462487799\,\,94982568482# US (Houston)<br
+ ><br>Dial by your location<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+ sp\;&nbsp\;+1 253 215 8782 US (Tacoma)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp
+ \;&nbsp\;&nbsp\;&nbsp\;+1 346 248 7799 US (Houston)<br>&nbsp\;&nbsp\;&nbsp\
+ ;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 669 900 6833 US (San Jose)<br>&nbsp\
+ ;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 312 626 6799 US (Chica
+ go)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;+1 929 205 6
+ 099 US (New York)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp
+ \;+1 301 715 8592 US (Germantown)<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+ sp\;&nbsp\;&nbsp\;877 853 5247 US Toll-free<br>&nbsp\;&nbsp\;&nbsp\;&nbsp\;
+ &nbsp\;&nbsp\;&nbsp\;&nbsp\;888 788 0099 US Toll-free<br>Meeting ID: 949 82
+ 56 8482<br>Find your local number: <a href="https://zoom.us/u/abEnFp9c5o">h
+ ttps://zoom.us/u/abEnFp9c5o</a><br><br><br><br>──────────
+LAST-MODIFIED:20200820T170920Z
+LOCATION:https://zoom.us/j/94982568482?pwd=RzlzUWJUc2VsNHpQRU5zZDNPRlFjZz09
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:OpenSSF TAC Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200819T160000Z
+DTEND:20200819T170000Z
+DTSTAMP:20200928T131137Z
+UID:6vjoq4dk4jdvit94ils7utdufr@google.com
+CREATED:20200817T201425Z
+DESCRIPTION:Description:(Join https://groups.google.com/forum/#!forum/ossf-
+ wg-developer-identity for access to the meeting notes & agenda)\n\nThis eve
+ nt has a video call.\nJoin: https://meet.google.com/nmy-thie-pqd\n(US) +1 9
+ 29-324-2897 PIN: 346134428#\nView more phone numbers: https://tel.meet/nmy-
+ thie-pqd?pin=9343154895306&hs=7
+LAST-MODIFIED:20200817T201426Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Developer Identity WG
+TRANSP:OPAQUE
+ATTACH;FILENAME=Developer Identity WG Meeting Notes;FMTTYPE=application/vnd
+ .google-apps.document:https://docs.google.com/document/d/1xPs2sSbH3I9Ich7Oy
+ LOzl85oJshnK8Q6WoAgREE5-zA/edit?usp=drive_web
+END:VEVENT
+END:VCALENDAR
